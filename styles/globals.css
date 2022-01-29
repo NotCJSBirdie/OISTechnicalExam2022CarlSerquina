@@ -1,16 +1,18 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "F1";
+  src: url("../public/fonts/f1_bold.ttf");
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: "Titillium";
+  src: url("../public/fonts/TitilliumWeb-Regular.ttf");
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: "F1 Regular";
+  src: url("../public/fonts/Formula1\ Display\ Regular.ttf");
 }

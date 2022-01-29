@@ -1,0 +1,118 @@
+#modal1titleA {
+  font-family: "F1";
+  font-size: 18px;
+}
+
+#modal1titleB {
+  font-family: "F1 Regular";
+  font-size: 14px;
+}
+
+#modal1body {
+  font-family: "Titillium";
+  font-size: 16px;
+}
+
+#modal1bodyC {
+  font-family: "Titillium";
+  font-size: 16px;
+  margin-bottom: 36px;
+}
+
+#modal1buttonA {
+  font-family: "Titillium";
+  font-size: 16px;
+  color: #15151e;
+  border-width: 2px;
+  border-color: #ececed;
+}
+
+#modal1buttonA:hover {
+  font-family: "Titillium";
+  font-size: 16px;
+  color: #15151e;
+  border-width: 2px;
+  border-color: #e10600;
+}
+
+#modal1arrow {
+  margin-left: 2px;
+}
+
+#modal1buttonB {
+  font-family: "Titillium";
+  font-size: 16px;
+  color: #ffffff;
+  border-width: 2px;
+  border-color: #e10600;
+  background-color: #e10600;
+}
+
+#modal1buttonB:hover {
+  font-family: "Titillium";
+  font-size: 16px;
+  color: #000000;
+  border-width: 2px;
+  border-color: #e10600;
+  background-color: #ffffff;
+}
+
+@media (min-width: 767px) {
+  #modal1entire {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  #modal1buttonA {
+    margin-top: 16px;
+  }
+
+  #modal1buttonB {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  #modal1entire {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  #modal1buttonA {
+    margin-top: 12px;
+  }
+
+  #modal1buttonB {
+    margin-top: 16px;
+  }
+}
+
+#modal1footer {
+  border-top-width: 2px;
+  border-color: #ececed;
+}
+
+#modal1privacypolicy {
+  margin-left: 5px;
+  margin-right: 2px;
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-color: #e10600;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+  font-weight: bolder;
+}
